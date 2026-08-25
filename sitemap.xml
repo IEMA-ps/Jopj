@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR-DOMAIN/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!--
+    ملحوظة مهمة: الملف ده ثابت وبيغطي الصفحة الرئيسية بس.
+    عشان كل وظيفة تتفهرس لوحدها في جوجل، لازم رابط كل وظيفة
+    (?job=ID) يتضاف هنا تلقائيًا كل ما تتفتح/تتقفل وظيفة —
+    ده محتاج endpoint ديناميكي (Vercel Serverless Function)
+    بيقرأ الوظائف المفتوحة من Firestore ويولّد الملف ده
+    live بدل ما يفضل ثابت وقديم.
+  -->
+</urlset>
